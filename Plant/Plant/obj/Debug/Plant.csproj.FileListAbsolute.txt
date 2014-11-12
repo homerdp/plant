@@ -50,7 +50,6 @@ C:\Users\Homer\Desktop\plant\Plant\Plant\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Users\Homer\Desktop\plant\Plant\Plant\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\Homer\Desktop\plant\Plant\Plant\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Homer\Desktop\plant\Plant\Plant\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\Homer\Desktop\plant\Plant\Plant\obj\Debug\Plant.csprojResolveAssemblyReference.cache
 C:\Users\Homer\Desktop\plant\Plant\Plant\obj\Debug\Plant.dll
 C:\Users\Homer\Desktop\plant\Plant\Plant\obj\Debug\Plant.pdb
 C:\Users\Homer\Desktop\plant\Plant\Plant\obj\Debug\Plant.Migrations.plant.resources
