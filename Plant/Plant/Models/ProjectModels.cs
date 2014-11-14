@@ -49,19 +49,19 @@ namespace Plant.Models
         public int? MinHeightEn { get; set; }//максимальная величина растения в футах
         public int? MaxHeightRu { get; set; }//максимальная величина растения в см
         public int? MaxHeightEn { get; set; }//максимальная величина растения в футах
-        public int MinTemperature { get; set; }//ALLOW NULL минимальная температура цельсий
-        public int MaxTemperature { get; set; }//ALLOW NULL максимальная температура цельсий
-        public int Rating { get; set; }//рейтинг
-        public int Views { get; set; }//просмотры
-        public int CommentNumber { get; set; }//кол-во комментов, менять при добавлении нового коммента
-        public DateTime Time { get; set; }//время добавления
+        public int? MinTemperature { get; set; }//ALLOW NULL минимальная температура цельсий
+        public int? MaxTemperature { get; set; }//ALLOW NULL максимальная температура цельсий
+        public int? Rating { get; set; }//рейтинг
+        public int? Views { get; set; }//просмотры
+        public int? CommentNumber { get; set; }//кол-во комментов, менять при добавлении нового коммента
+        public DateTime? Time { get; set; }//время добавления
         [Required]
         [MaxLength(100)]
         public string PictureUrl { get; set; }//ссылка лицевой картинки растения
-        public float AveragePriceRub { get; set; }//средняя цена растения
-        public float AveragePriceGrn { get; set; }//средняя цена растения
-        public float AveragePriceEuro { get; set; }//средняя цена растения
-        public float AveragePriceDollar { get; set; }//средняя цена растения
+        public float? AveragePriceRub { get; set; }//средняя цена растения
+        public float? AveragePriceGrn { get; set; }//средняя цена растения
+        public float? AveragePriceEuro { get; set; }//средняя цена растения
+        public float? AveragePriceDollar { get; set; }//средняя цена растения
 
 
 
@@ -121,19 +121,19 @@ namespace Plant.Models
         [MaxLength(100)]
         public string CompoundLeafUrl { get; set; }//ALLOW NULL ссылка лицевой картинки сложного листа, если он сложный
 
-        public int LeafThicknessId { get; set; }
+        public int? LeafThicknessId { get; set; }
         public virtual LeafThickness LeafThickness { get; set; }//allow null если иголка, ссылка на таблицу с толщиной листа
         public virtual ICollection<LeafColor> LeafColors { get; set; }//allow null если иголка,ссылка на таблицу с цветом листа
-        public int LeafLocationId { get; set; }
+        public int? LeafLocationId { get; set; }
         public virtual LeafLocation LeafLocation { get; set; }//allow null если иголка,ссылка на таблицу с нахождением листа на стебле
-        public int LeafConnectionId { get; set; }
+        public int? LeafConnectionId { get; set; }
         public virtual LeafConnection LeafConnection { get; set; }//allow null если иголка,ссылка на таблицу с типом присоединения листа к стеблю
-        public int LeafVenationId { get; set; }
+        public int? LeafVenationId { get; set; }
         public virtual LeafVenation LeafVenation { get; set; }//allow null если иголка,ссылка на таблицу с жилкованием листа
 
-        public int LeafShapeId { get; set; }
+        public int? LeafShapeId { get; set; }
         public virtual LeafShape LeafShape { get; set; }//ссылка на таблицу с формой листа
-        public int LeafMarginId { get; set; }
+        public int? LeafMarginId { get; set; }
         public virtual LeafMargin LeafMargin { get; set; }//allow null если иголка,ссылка на таблицу с типом края листа
         //public virtual ICollection<Picture> Pictures { get; set; }//ссылка на таблицу с картинками
         public virtual ICollection<Plant> Plants { get; set; }//ссылка на таблицу с растением
@@ -297,8 +297,5 @@ namespace Plant.Models
     #endregion
 
 
-    public class www
-    {
-
-    }
+   
 }

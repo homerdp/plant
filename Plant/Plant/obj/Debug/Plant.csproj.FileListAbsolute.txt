@@ -54,3 +54,5 @@ C:\Users\Homer\Desktop\plant\Plant\Plant\obj\Debug\Plant.dll
 C:\Users\Homer\Desktop\plant\Plant\Plant\obj\Debug\Plant.pdb
 C:\Users\Homer\Desktop\plant\Plant\Plant\obj\Debug\Plant.Migrations.plant.resources
 C:\Users\Homer\Desktop\plant\Plant\Plant\obj\Debug\Plant.csproj.GenerateResource.Cache
+C:\Users\Homer\Desktop\plant\Plant\Plant\obj\Debug\Plant.csprojResolveAssemblyReference.cache
+C:\Users\Homer\Desktop\plant\Plant\Plant\obj\Debug\Plant.Migrations.plant2.resources
