@@ -12,7 +12,6 @@ namespace BestProject
                         "~/Scripts/jquery-{version}.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/app").Include(
-                        "~/Scripts/jquery-{version}.js",
                         "~/Scripts/knockout-{version}.js",
                         "~/Scripts/BestProject.js"));
 

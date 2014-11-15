@@ -1,12 +1,12 @@
 ﻿var viewModel = function() {
     var self = this;
-    self.plants = ko.bservableArray();
+    self.plants = ko.observableArray();
 
     var booksUri = '/api/plants';
 
     //общая функция аякс
     function ajaxHelper(uri, method, data) {
-        self.error(''); // Clear error message
+        //self.error(''); // Clear error message
         return $.ajax({
             type: method,
             url: uri,
