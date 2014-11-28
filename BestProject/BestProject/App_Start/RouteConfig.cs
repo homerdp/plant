@@ -12,14 +12,20 @@ namespace BestProject
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
-            #if DEBUG
-            routes.IgnoreRoute("{*browserlink}", new { browserlink = @"./arterySignalR/ping" });
-            #endif
+
+            routes.MapRoute(
+                name: "Admin",
+                url: "Admin/{action}/{id}",
+                defaults: new { controller = "Admin", action = "Plant", id = UrlParameter.Optional }
+            );
+
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Admin", action = "Plant", id = UrlParameter.Optional }
             );
+
+            
         }
     }
 }

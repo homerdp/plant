@@ -60,9 +60,9 @@ C:\Users\Homer\Desktop\plant\BestProject\BestProject\bin\Microsoft.Owin.Security
 C:\Users\Homer\Desktop\plant\BestProject\BestProject\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\Homer\Desktop\plant\BestProject\BestProject\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Homer\Desktop\plant\BestProject\BestProject\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\Homer\Desktop\plant\BestProject\BestProject\obj\Debug\BestProject.csprojResolveAssemblyReference.cache
 C:\Users\Homer\Desktop\plant\BestProject\BestProject\obj\Debug\BestProject.Migrations.plant.resources
 C:\Users\Homer\Desktop\plant\BestProject\BestProject\obj\Debug\BestProject.Migrations.plant2.resources
 C:\Users\Homer\Desktop\plant\BestProject\BestProject\obj\Debug\BestProject.csproj.GenerateResource.Cache
 C:\Users\Homer\Desktop\plant\BestProject\BestProject\obj\Debug\BestProject.dll
 C:\Users\Homer\Desktop\plant\BestProject\BestProject\obj\Debug\BestProject.pdb
+C:\Users\Homer\Desktop\plant\BestProject\BestProject\obj\Debug\BestProject.csprojResolveAssemblyReference.cache
